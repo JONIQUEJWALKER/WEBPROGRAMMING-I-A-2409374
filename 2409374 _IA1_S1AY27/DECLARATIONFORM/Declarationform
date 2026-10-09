@@ -1,0 +1,153 @@
+```text
+
+===========================================================================
+
+🏛️ SCIT Web Programming - AI DISCLOSURE BLOCK
+
+===========================================================================
+
+File Name:      [2409374 _IA1_S1AY27]
+
+Student Name:   [JONIQUE JODENE WALKER]
+
+Student ID:     [2409374]
+
+Assignment:     [WEBPROGRAMMING : INDIVIDUAL ASSIGNMENT 1A]
+
+Date:           [09/10/2026]
+
+ 
+
+-----------------------------------------------------------------------------
+
+🤖 GENERIC AI TOOL UTILISED (Check all that apply):
+
+[ ] GitHub Copilot     [ ] ChatGPT     [ ] Claude     [ ] Gemini     [X] None
+
+-----------------------------------------------------------------------------
+
+ 
+
+📝 SCOPE OF WORK & DEBUGGING LOG:
+
+1. Specific Bug/Error Encountered:
+
+   [Paste compiler error or describe the runtime logic bug you faced]
+
+ 
+
+2. Exact Prompt Sent to AI Tool:
+
+   "[Paste the exact text prompt you fed to the AI engine here]"
+
+ 
+
+3. Resolution/Fix Applied:
+
+   [Briefly explain what structural syntax or comment changes you made based
+
+    on the AI feedback. Do not paste massive code blocks here.]
+
+ 
+
+-----------------------------------------------------------------------------
+
+⚠️ INTEGRITY VERIFICATION DECLARATION:
+
+By submitting this file, I certify that the core algorithmic logic, program
+
+architecture, and data structures implemented herein are entirely my own
+
+authentic work. AI assistance was restricted strictly to debugging and/or
+
+generating explanatory documentation comments in full compliance with the
+
+course syllabus.
+
+ 
+
+Student Electronic Signature: [Your Initials/Name]
+JONIQUE JODENE WALKER
+===========================================================================
+
+```
+
+ 
+
+ Reference Example (How a correctly filled block should look)
+
+ 
+
+```text
+
+===========================================================================
+
+🏛️ SCIT Web Programming - AI DISCLOSURE BLOCK
+
+===========================================================================
+
+File Name:      hash_table.cpp
+
+Student Name:   Alex Chen
+
+Student ID:     87432109
+
+Assignment:     Project 3: Open Addressing Hash Map
+
+Date:           14/10/2026
+
+ 
+
+-----------------------------------------------------------------------------
+
+🤖 GENERIC AI TOOL UTILISED (Check all that apply):
+
+[ ] GitHub Copilot     [X] ChatGPT     [ ] Claude     [ ] Gemini     [ ] None
+
+-----------------------------------------------------------------------------
+
+ 
+
+📝 SCOPE OF WORK & DEBUGGING LOG:
+
+1. Specific Bug/Error Encountered:
+
+   Segmentation fault (core dumped) when executing the delete function line 142.
+
+   "Segmentation fault at entry -> next"
+
+ 
+
+2. Exact Prompt Sent to AI Tool:
+
+   "Why am I getting a segmentation fault when traversing this linked list node structure during deletion? Here is my line: if (table[index]->next != nullptr)"
+
+ 
+
+3. Resolution/Fix Applied:
+
+   Realised I wasn't checking if 'table[index]' itself was null before evaluating
+
+   its 'next' pointer attribute. Fixed by chaining the null check logic wrapper:
+
+   if (table[index] != nullptr && table[index]->next != nullptr).
+
+ 
+
+-----------------------------------------------------------------------------
+
+⚠️ INTEGRITY VERIFICATION DECLARATION:
+
+By submitting this file, I certify that the core algorithmic logic, program
+
+architecture, and data structures implemented herein are entirely my own
+
+authentic work. AI assistance was restricted strictly to debugging and/or
+
+generating explanatory documentation comments in full compliance with the
+
+course syllabus.
+
+ 
+
+Student Electronic Signature: A.C.
